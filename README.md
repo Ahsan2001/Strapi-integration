@@ -1,0 +1,2 @@
+# Strapi-integration
+headless CMS
