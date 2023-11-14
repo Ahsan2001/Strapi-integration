@@ -1,4 +1,5 @@
-import type { Metadata } from 'next'
+import { Tabs } from '@/components';
+import type { Metadata } from 'next';
 
 
 export const metadata: Metadata = {
@@ -6,8 +7,16 @@ export const metadata: Metadata = {
   description: 'description testing ahsan',
 }
 
-export default function Home() {
+
+export default async function Home() {
+
+  
+
   return (
-      <h1 className="text-primaryDark ">Hello Ahsan</h1>
+    <>
+
+      <h1 className="text-primaryDark" > Ahsan </h1>
+      <Tabs />  
+    </>
   )
 }
